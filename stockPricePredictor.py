@@ -3,6 +3,7 @@ import numpy
 from sklearn.svm import SVR
 import matplotlib.pyplot as plot
 
+plot.switch_backend('Qt5Agg')
 dates = []
 prices = []
 
